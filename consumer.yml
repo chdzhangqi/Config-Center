@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: discovery-client
+  profiles: 8010
+server:
+  port: 8010
+eureka:
+  client:
+    service-url:
+      defaultZone: http://zhangqi:zhangqi@localhost:7902/eureka
